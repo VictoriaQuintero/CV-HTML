@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    font-size: 2rem;
+    color: white;
+}
+
+nav img{
+    width: 15%;
+}
+
+.cv-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cv-body aside{
+    background-color: #cfcfcf86;
+    width: 20%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+.cv-body aside div{
+    width: 100%;
+}
+.cv-body aside h2{
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+.cv-body aside div p{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.cv-body aside div p a{
+    text-decoration: none;
+    color: black;
+}
+.cv-body aside ul {
+    width: 100%;
+}
+
+.cv-body aside ul li, .cv-body aside div p{
+    margin: 10px;
+}
+.cv-body .cv-section{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.cv-body .cv-perfil h2, .cv-body .cv-formacion h2{
+    text-align: left;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.cv-body .cv-perfil ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cv-body .cv-formacion div{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    margin-bottom: 30px;
+
+}
